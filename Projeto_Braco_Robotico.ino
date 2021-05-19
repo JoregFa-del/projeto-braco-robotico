@@ -16,14 +16,10 @@ Servo base,altura, angulo, garra;
 
 //Cria as variáveis para o controle do ângulo (por não ter potenciômetro, será manual, simulando uma entrada analógica)
 //Valores entre 0 e 1024
-int valorPotBase, valorPotAltura, valorPotAngulo;
-int valorPotGarra;
+int valorPotBase, valorPotAltura, valorPotAngulo, valorPotGarra;
 
 //Cria as variáveis que armazenarão os valores dos ângulos de cada servos
-int valorAngBase;
-int valorAngAltura;
-int valorAngAngulo;
-int valorAngGarra;
+int valorAngBase, valorAngAltura, valorAngAngulo, valorAngGarra;
  
 void setup() {
   Serial.begin(9600); 
